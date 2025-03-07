@@ -2,7 +2,7 @@
 <div id="div1">
 
   <h2>LONDON</h2>
-  <marquee width="60%" direction="up" height="400px">
+  <marquee width="80%" direction="up" height="400px">
     <p>London is very advanced country Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae repellendus
       exercitationem ullam voluptate necessitatibus praesentium odit rem. Velit quos magni, vel amet, at autem error
       esse
@@ -15,7 +15,12 @@
     </p>
   </marquee>
 </div>
+
+
 <h2 style="padding-left: 200px; color: yellow; background-color: black; margin-bottom: 10px;">DIV CONTAINERS</h2>
+
+
+
 <div id="div2">
   <h2>LONDON</h2>
   <p>London is very advanced country Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae repellendus
@@ -29,11 +34,11 @@
 </div>
 
 <h2 style="padding-left: 200px; color: yellow; background-color: black; margin-bottom: 10px; margin-top: 10px;">DIV
-  CONTAINERS</h2>
+  CONTAINER<span style="color: red;">S</span></h2>
 
 <div id="div1">
 
-  <h2>LONDON AIRPORT</h2>
+  <h2 id="city">LONDON AIRPORT</h2>
   <marquee width="60%" direction="up" height="100px">
     <p style="margin-left: 80px;">
       <span style="padding-left: 10px; margin-bottom: 100px; border: solid yellow 2px; margin-left: 40px;">ATTENTION
@@ -47,30 +52,52 @@
     <br><br>
     <span style="margin-top: 20px; margin-left: 80px">الرحلة على متن الطائرة في غضون دقائق قليلة.
     </span>
+    <br><br>
+    <span style="margin-top: 20px; margin-left: 80px">కొన్ని నిమిషాల్లో <br><br><span style="padding-left: 60px;">విమానం
+        బయలుదేరుతుంది.</span>
+    </span>
     </p>
   </marquee>
+</div>
 
-  <style>
-    #div1 {
-      padding: 10px;
-      padding-left: 20px;
-      margin-bottom: 10px;
-      background-color: black;
-      color: aqua;
-      border-radius: 20px;
-    }
 
-    #div2 {
-      padding: 10px;
-      padding-left: 20px;
-      /* margin-top: 10px; */
-      background-color: black;
-      color: aqua;
-      border-radius: 20px;
-    }
+<!-- HOVER -->
 
-    h2 {
-      color: blue;
-      margin: auto;
-    }
-  </style>
+<style>
+  #div1 {
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: aqua;
+    border-radius: 20px;
+  }
+
+  h2:hover {
+    background-color: red;
+    color: yellow;
+    border-radius: 20px;
+    padding-left: 6px;
+  }
+
+  #city:hover {
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    padding-left: 6px;
+  }
+
+  #div2 {
+    padding: 10px;
+    padding-left: 20px;
+    /* margin-top: 10px; */
+    background-color: black;
+    color: aqua;
+    border-radius: 20px;
+  }
+
+  h2 {
+    color: blue;
+    margin: auto;
+  }
+</style>
